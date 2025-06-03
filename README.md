@@ -10,3 +10,6 @@ Recommended to use together with [Uperf Game Turbo](https://github.com/yinwanxi/
   - System_Ui and SystemServer have a filter that is more beneficial for them. Improving SystemServer memory management and reducing CPU usage.
   - Instead of generic, use a more native compilation that respects the system, making ART/JIT more respectful and making the most of the Snapdragon 680, which is what the Moto G52, G32 and G42 have.
   - Pin dex2oat threads to big cores, enable batch parallelism which makes compilation and runtime movement execution faster, reducing batch time by ~20%.
+- Ensure that the GPU will do the rendering work, save CPU on these issues
+- Reduce logging by disabling logs to certain unimportant components
+- Some touch hacks that somehow still works
