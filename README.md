@@ -1,7 +1,7 @@
 # CrystalClear
 Improvements and optimizations for Rhode devices (Moto G52) and its siblings Moto G32 and G42.
 
-Recommended to use together with [Uperf Game Turbo](https://github.com/yinwanxi/Uperf-Game-Turbo) to improve the Scheduler, and [SkyScene Add-on](https://github.com/WeirdMidas/SkySceneAddon) to improve memory management. If you want something extra, use it with [Basic Cleaner](https://github.com/WeirdMidas/BasicCleaner) for a monthly cleaning of your device.
+Recommended to use together with [SkyScene Add-on](https://github.com/WeirdMidas/SkySceneAddon) to improve memory management. If you want something extra, use it with [Basic Cleaner](https://github.com/WeirdMidas/BasicCleaner) for a monthly cleaning of your device.
 
 ## Features
 - Changes to the entire Android Runtime management. This means that the entire ART of the Moto G52 has been optimized and superficially improved through AOSP Master optimizations. These optimizations vary in:
